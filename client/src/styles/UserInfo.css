@@ -1,0 +1,41 @@
+.user-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #2a6496;
+    font-size: 20px;
+}
+
+.user-detail {
+    margin-bottom: 10px;
+}
+
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.skills-list,
+.education-list,
+.projects-list,
+.experience-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li,
+.education-list li,
+.projects-list li,
+.experience-list li {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
