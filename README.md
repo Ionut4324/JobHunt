@@ -1,2 +1,2 @@
 # JobHunt
-Hiring and recruiting app created using mern, redux and socket.io
+Hiring and recruiting app created using mern, redux, antDesign and socket.io
