@@ -1,0 +1,56 @@
+  .job-details {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+  }
+
+  .job-title,
+  .job-company,
+  .job-small-desc,
+  .job-full-desc,
+  .job-skills-required,
+  .job-experience,
+  .job-min-qual,
+  .job-salary-range,
+  .job-department,
+  .job-company-profile,
+  .job-total-candidates {
+      margin-bottom: 10px;
+  }
+
+  .job-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+  }
+
+  /* .edit-job-button,
+  .apply-now-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  } */
+
+  .edit-job-button:hover,
+  .apply-now-button:hover {
+      background-color: #45a049;
+  }
+
+  .job-posted-on,
+  .job-posted-by {
+      font-style: italic;
+      color: #666;
+  }
+
+  .already-applied-tag {
+      background-color: #f4f4f4;
+      border-radius: 5px;
+      padding: 5px 10px;
+      font-size: 14px;
+  }

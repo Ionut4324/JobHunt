@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
 import io from "socket.io-client";
-import "../style/Conversation.css";
+import '../style/Conversation.css';
 import { useParams } from 'react-router-dom';
 import axios from "axios";
 import { useHistory } from 'react-router-dom';
@@ -79,7 +79,7 @@ function Chat() {
 
   const sendMessage = async () => {
     
-    if (currentMessage == "")
+    if (currentMessage === "")
       return
 
     const messageData = {
